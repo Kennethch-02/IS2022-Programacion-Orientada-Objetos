@@ -27,5 +27,21 @@ public class Main {
         int a = (int) (10/3.0); // Aca devuelve un double, por lo que es necesario realizar un Cast
         Main m = new Main();
         System.out.println(m.getX());
+
+        // Clase 16/02/2022
+
+        if (a>10){
+            System.out.println("");
+        }else if(a > 0){
+            System.out.println("");
+        }else{
+            System.out.println("");
+        }
+        // & o | representan el and o or logicos
+        // si solo queremos indagar la primera instrucion
+        // && || utilizamos simboo doble, para && funciona con False
+        // para || funciona con True
+        // para --x ++x primero se opera y luego se usa la variable
+        // caso contrario para x-- x++
     }
 }
